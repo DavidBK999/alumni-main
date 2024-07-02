@@ -1,0 +1,36 @@
+.alumni {
+  font-size: 400%;
+  font-family: "Agency FB", arial !important;
+  color: #950a0a;
+}
+.title {
+  font-family: "Agency FB", arial !important;
+  color: #3c4858;
+}
+
+.h3 {
+  font-family: "Agency FB", arial !important;
+  color: #3c4858;
+}
+
+.h2 {
+  font-family: "Agency FB", arial !important;
+  color: #950a0a;
+}
+
+.h {
+  size: 30px;
+  font-family: "Agency FB", arial !important;
+  color: #3c4858;
+}
+
+#image {
+  justify-self: center;
+  width: 100%;
+}
+
+.benefits {
+  font-family: "Agency FB", arial !important;
+  font-size: 30px;
+  color: #950a0a;
+}
