@@ -1,3 +1,33 @@
+.body {
+  background-image: url(https://codefactory.wien/wp-content/uploads/2020/03/White-1.jpg);
+  background-repeat: repeat;
+  background-position: 100%;
+  justify-content: center;
+  align-content: center;
+}
+
+.plate {
+  text-align: center;
+  justify-content: center;
+  justify-self: center;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 5%;
+  padding: 2%;
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.111);
+  background-color: white;
+}
+
+.apostroph {
+  color: #999;
+  font-size: 30px;
+}
+
+.apostroph2 {
+  color: #999;
+  margin-left: 250px;
+  font-size: 30px;
+}
 .alumni {
   font-size: 400%;
   font-family: "Agency FB", arial !important;
@@ -28,4 +58,30 @@
   font-family: "Agency FB", arial !important;
   font-size: 30px;
   color: #950a0a;
+}
+
+.div {
+  text-align: center;
+  background-color: #821918;
+
+  padding: 5%;
+  font-size: 27px;
+}
+
+.btn {
+  background-color: #999999;
+  color: white;
+  padding: 15px 8% 15px 8%;
+  font-size: 70%;
+}
+
+.apostroph {
+  color: #999;
+  font-size: 50px;
+}
+
+.apostroph2 {
+  color: #999;
+  margin-left: 250px;
+  font-size: 50px;
 }

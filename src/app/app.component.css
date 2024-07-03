@@ -29,3 +29,10 @@
   font-size: 30px;
   color: #950a0a;
 }
+
+.btn {
+  background-color: #999999;
+  color: white;
+  padding: 15px 8% 15px 8%;
+  font-size: 70%;
+}

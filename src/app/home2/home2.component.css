@@ -1,0 +1,19 @@
+.div {
+  text-align: center;
+  background-color: #821918;
+
+  padding: 5%;
+  font-size: 27px;
+}
+
+.btn {
+  background-color: #999;
+  color: white;
+  padding: 15px 8% 15px 8%;
+  font-size: 70%;
+}
+
+.names {
+  margin: 10px;
+  list-style: none;
+}
