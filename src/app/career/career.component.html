@@ -1,1 +1,135 @@
-<p>career works!</p>
+<div class="body">
+  <div class="plate">
+    <div class="career-page">
+      <div class="container-title">
+        <h1 class="statement">Careers</h1>
+      </div>
+
+      <section class="info">
+        <div class="container">
+          <h3 class="statement">What have we learned at CodeFactory?</h3>
+          <p>
+            At CodeFactory, you receive comprehensive education and training in
+            Git, HTML5, CSS3, Bootstrap, JavaScript, Documentation, and Angular,
+            along with invaluable experience working collaboratively in groups.
+            Upon passing the course, you will possess an impressive portfolio
+            showcasing your excellent talents and knowledge. You will be fully
+            prepared to enter the job market as a skilled mobile, web, and
+            web-app developer.
+          </p>
+        </div>
+      </section>
+
+      <section class="info">
+        <div class="container">
+          <h3 class="statement">Real life applications</h3>
+          <p>
+            These skills are directly applicable to real-life job roles,
+            enabling you to develop corporate websites, e-commerce platforms,
+            blogs, and both native and cross-platform mobile apps. By creating
+            responsive and interactive user interfaces, content management
+            systems, and project management tools, you build a robust portfolio
+            that showcases your talents. With hands-on experience in version
+            control using Git, contributing to open-source projects, and writing
+            technical documentation, you are well-prepared to meet the demands
+            of the job market. Your proficiency in agile methodologies and
+            teamwork further enhances your employability, making you a valuable
+            candidate for roles as a mobile, web, and web-app developer.
+          </p>
+        </div>
+      </section>
+
+      <section class="job-section">
+        <div class="container">
+          <h1 class="statement">Jobs</h1>
+          <div class="jobs-grid">
+            <div class="container job-cell" *ngFor="let job of jobs">
+              <div class="job-info">
+                <h3>{{ job.title }}</h3>
+                <p><strong>Firm:</strong> {{ job.firm }}</p>
+                <p>{{ job.description }}</p>
+              </div>
+              <button class="btn" [routerLink]="['/career2']">More Info</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="container image-coders">
+        <img
+          class="image-coding"
+          src="./images/career.png"
+          alt="Manager würdigt das Projekt seines Mitarbeiters"
+        />
+      </div>
+
+      <div class="container coi-container coi-container-one">
+        <div class="coi-content">
+          <img
+            class="coi-image"
+            src="https://secure.meetupstatic.com/photos/event/8/b/f/5/clean_489155829.webp"
+            alt="Company Image"
+            width="200"
+            height="150"
+          />
+          <div class="coi-text">
+            <h3>ViennaJs</h3>
+            <p>
+              ViennaJS.org is dedicated to JavaScript and sharing experiences.
+              We welcome all, from beginners to experts, using libraries like
+              jQuery, Vue, React, Angular, Node.js, and more. Our monthly
+              meetups, held on the last Wednesday, feature short English
+              presentations on JavaScript. Companies highly value our alumni,
+              especially CodeFactory graduates like Anna Schmidt and Lukas
+              Bauer, who bring innovation and expertise. These companies
+              regularly attend to scout talented developers.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="container coi-container coi-container-two">
+        <div class="coi-content">
+          <div class="coi-text">
+            <h3>TechJobsFair</h3>
+            <p>
+              Tech Jobs Fair Vienna is the ultimate event for tech enthusiasts
+              looking to advance their careers. Our fair welcomes everyone, from
+              budding developers to seasoned experts, providing a platform to
+              explore opportunities in various tech fields. Companies highly
+              value our alumni who bring innovation and expertise to the table.
+              These companies are eager to meet and hire talented professionals.
+              Join us to network, discover new technologies, and find your next
+              career opportunity in the tech industry.
+            </p>
+          </div>
+          <img
+            class="coi-image"
+            src="https://techjobsfair.com/wp-content/themes/techjobsfair/assets/images/techjobsfair-logo.png"
+            alt="Company Image"
+            width="200"
+            height="150"
+          />
+        </div>
+      </div>
+
+      <div class="container faq-container">
+        <h3>Frequently Asked Questions</h3>
+        <div class="faq" *ngFor="let faq of faqs" [class.open]="faq.open">
+          <div class="faq-question" (click)="toggleFaq(faq)">
+            {{ faq.question }}
+          </div>
+          <div class="faq-answer" *ngIf="faq.open">
+            {{ faq.answer }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="m-5 logo">
+    <p class="apostroph2"></p>
+    <img src="./images/logo.png" width="250" class="" alt="" />
+    <p class="apostroph"></p>
+  </div>
+</div>

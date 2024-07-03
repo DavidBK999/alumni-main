@@ -1,1 +1,35 @@
-<p>career2 works!</p>
+<div class="body">
+  <div class="plate">
+    <div class="career2-page">
+      <div class="job-listing-header">
+        <h1>Job Listing</h1>
+      </div>
+      <div class="job-listing-table-container">
+        <table class="job-table">
+          <thead>
+            <tr>
+              <th>Firm</th>
+              <th>Job</th>
+              <th>Location</th>
+              <th>Website</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let job of jobs">
+              <td>{{ job.firm }}</td>
+              <td>{{ job.title }}</td>
+              <td>{{ job.location }}</td>
+              <td><a [href]="job.website" target="_blank">Website</a></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <div class="m-5 logo">
+    <p class="apostroph2"></p>
+    <img src="./images/logo.png" width="250" class="" alt="" />
+    <p class="apostroph"></p>
+  </div>
+</div>

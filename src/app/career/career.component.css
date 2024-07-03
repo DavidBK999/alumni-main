@@ -1,0 +1,254 @@
+.body {
+  background-image: url(https://codefactory.wien/wp-content/uploads/2020/03/White-1.jpg);
+  background-repeat: repeat;
+  background-position: 100%;
+  justify-content: center;
+  align-content: center;
+}
+
+.plate {
+  text-align: center;
+  justify-content: center;
+  justify-self: center;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 5%;
+  padding: 2%;
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.111);
+  background-color: white;
+}
+
+.apostroph {
+  color: #999;
+  font-size: 30px;
+}
+
+.apostroph2 {
+  color: #999;
+  margin-left: 250px;
+  font-size: 30px;
+}
+.career-page {
+  padding: 30px 30px;
+  max-width: 100%;
+  margin: 0 auto;
+  font-family: "Agency FB", arial !important;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 40px;
+  font-family: "Agency FB", arial !important;
+  color: #950a0a;
+}
+
+.info {
+  margin-bottom: 40px;
+  text-align: left;
+}
+
+p {
+  color: #999999;
+}
+
+.statement {
+  font-family: "Agency FB", arial !important;
+  color: #950a0a;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #3c4858;
+}
+
+.job-section {
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.jobs-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+@media (max-width: 768px) {
+  .jobs-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.job-cell {
+  border: 3px solid #850a0a;
+  padding: 20px;
+  text-align: left;
+  border-radius: 2.5px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.job-cell h3 {
+  margin-top: 0;
+  font-family: "Agency FB", arial !important;
+  color: #3c4858;
+}
+
+.job-cell .job-info {
+  flex-grow: 1;
+}
+
+.job-cell .job-info p {
+  color: #999999;
+}
+
+.job-cell .btn {
+  align-self: flex-end;
+  padding: 15px 8%;
+  font-size: 17px;
+  background-color: #999999;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.job-cell .btn:hover {
+  background-color: #d3d3d3;
+}
+
+.final-section {
+  margin-bottom: 40px;
+  text-align: left;
+  color: #3c4858;
+}
+
+.final-section p {
+  color: #999999;
+}
+
+.container-title {
+  background-color: white;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+}
+
+.container {
+  background-color: white;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 5px;
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+}
+
+.image-coding {
+  position: relative;
+}
+
+.image-coders {
+  max-width: 600px;
+  max-height: 500px;
+  width: 100%;
+
+  margin: 20px auto;
+  overflow: hidden;
+}
+
+.image-coding {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.coi-container {
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+  margin: 20px auto;
+}
+
+.coi-container-one .coi-content,
+.coi-container-two .coi-content {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.coi-container-one .coi-image {
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.coi-container-one .coi-text {
+  width: 100%;
+  padding: 20px;
+  text-align: left;
+  margin-left: auto;
+}
+
+.coi-container-two .coi-image {
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
+  margin-left: auto;
+  object-fit: contain;
+}
+
+.coi-container-two .coi-text {
+  width: 100%;
+  padding: 20px;
+  text-align: left;
+}
+
+.coi-text h3 {
+  font-family: "Agency FB", arial !important;
+  color: #3c4858;
+}
+
+.coi-text p {
+  color: #999999;
+}
+
+.faq-container {
+  max-width: 100%;
+  margin: 20px auto;
+  background-color: rgb(255, 255, 255);
+}
+
+.faq {
+  margin-bottom: 10px;
+  background-color: white;
+}
+
+.faq-question {
+  background-color: white;
+  color: black;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+.faq-answer {
+  padding: 10px;
+  border: 1px solid black;
+  border-top: none;
+  border-radius: 0 0 5px 5px;
+  display: none;
+}
+
+.faq.open .faq-answer {
+  display: block;
+}
+
+.container h3.statement {
+  color: #3c4858;
+}

@@ -1,0 +1,174 @@
+.body {
+  background-image: url(https://codefactory.wien/wp-content/uploads/2020/03/White-1.jpg);
+  background-repeat: repeat;
+  background-position: 100%;
+  justify-content: center;
+  align-content: center;
+}
+
+.plate {
+  text-align: center;
+  justify-content: center;
+  justify-self: center;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 5%;
+  padding: 2%;
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.111);
+  background-color: white;
+}
+
+.apostroph {
+  color: #999;
+  font-size: 30px;
+}
+
+.apostroph2 {
+  color: #999;
+  margin-left: 250px;
+  font-size: 30px;
+}
+
+.team {
+  font-size: 500%;
+  font-family: "Agency FB", arial !important;
+  color: #950a0a;
+}
+#team-text {
+  font-size: 28px;
+  font-family: "Agency FB", arial !important;
+  color: #950a0a;
+}
+.header {
+  font-family: "Agency FB", arial !important;
+  color: #950a0a;
+}
+.title {
+  font-family: "Agency FB", arial !important;
+  color: #3c4858;
+}
+.h3 {
+  font-family: "Agency FB", arial !important;
+  color: #3c4858;
+}
+.h2 {
+  font-family: "Agency FB", arial !important;
+  color: #950a0a;
+}
+.h {
+  size: 30px;
+  font-family: "Agency FB", arial !important;
+  color: #3c4858;
+}
+
+.img-container {
+  width: 100%;
+  height: 40vh;
+  background-position: 100%;
+  background-image: url(https://img.freepik.com/free-photo/regular-human-job-performed-by-anthropomorphic-futuristic-robot_23-2151043492.jpg?t=st=1719964537~exp=1719968137~hmac=8ec1d90fd8a6b5e78d8ecaa3f57a56a800fe9a60f7e03effaec662c61599a849&w=826);
+}
+
+.benefits {
+  font-family: "Agency FB", arial !important;
+  font-size: 30px;
+  color: #950a0a;
+}
+.btn {
+  background-color: #999999;
+  color: white;
+  padding: 15px 8% 15px 8%;
+  font-size: 70%;
+}
+.pt-100 {
+  padding-top: 100px;
+}
+.pb-100 {
+  padding-bottom: 100px;
+}
+ul.timeline-list {
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+ul.timeline-list:before {
+  position: absolute;
+  content: "";
+  width: 2px;
+  height: 100%;
+  background-color: #800606;
+  left: 50%;
+  top: 0;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+ul.timeline-list li {
+  position: relative;
+  clear: both;
+  display: table;
+}
+.timeline_content {
+  border: 4px solid #950a0a;
+  background-color: #fff;
+}
+.icon {
+  width: 20px;
+}
+ul.timeline-list li .timeline_content {
+  width: 45%;
+  color: #333;
+  padding: 30px;
+  float: left;
+  text-align: right;
+}
+ul.timeline-list li:nth-child(2n) .timeline_content {
+  float: right;
+  text-align: left;
+}
+/* .timeline_content h4 {
+    font-size: 22px;
+    font-weight: 600;
+    margin: 10px 0;
+  } */
+ul.timeline-list li:before {
+  position: absolute;
+  content: "";
+  width: 25px;
+  height: 25px;
+  background-color: #950a0a;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+}
+/* .timeline_content span {
+    font-size: 18px;
+    font-weight: 500;
+    font-family: poppins;
+    color: #FF3636;
+  } */
+.row {
+  margin: 5%;
+}
+p {
+  text-align: center;
+}
+span {
+  color: #4caf50;
+}
+.img-responsive {
+  margin: 50px;
+}
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 500px;
+}
+
+.h2 {
+  font-size: 250%;
+  font-family: "Agency FB", arial !important;
+  color: #950a0a;
+}
