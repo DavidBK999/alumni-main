@@ -1,4 +1,7 @@
 import { Component } from '@angular/core';
+import { IStories } from '../stories.model';
+import { stories } from '../stories';
+
 
 @Component({
   selector: 'app-stories',
@@ -6,5 +9,9 @@ import { Component } from '@angular/core';
   styleUrl: './stories.component.css'
 })
 export class StoriesComponent {
-
+  stories: IStories[];
+  constructor ()
+  {
+    this.stories = stories;
+  }
 }

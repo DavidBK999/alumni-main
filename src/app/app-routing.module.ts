@@ -3,6 +3,8 @@ import { RouterModule, Routes } from '@angular/router';
 import { CareerComponent } from './career/career.component';
 import { Career2Component } from './career2/career2.component';
 import { HomeComponent } from './home/home.component';
+import { StoriesComponent } from './stories/stories.component';
+import { Stories1Component } from './stories1/stories1.component';
 import { AlumniComponent } from './alumni/alumni.component';
 import { Alumni1Component } from './alumni1/alumni1.component';
 import { Alumni2Component } from './alumni2/alumni2.component';
@@ -29,6 +31,8 @@ const routes: Routes = [
   },
   { path: 'career2', component: Career2Component },
   { path: 'events', component: EventsComponent },
+  { path: 'stories', component: StoriesComponent},
+  { path: 'stories/:id', component: Stories1Component},
   { path: '**', redirectTo: 'career', pathMatch: 'full' },
 ];
 
