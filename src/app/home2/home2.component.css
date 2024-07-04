@@ -17,3 +17,80 @@
   margin: 10px;
   list-style: none;
 }
+
+.list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.FooterLinks {
+  display: flex;
+  justify-content: center;
+}
+
+.FooterLinksParts a {
+  padding: 10px;
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+.FooterLinksParts a:hover {
+  color: #950a0a;
+  text-decoration: underline;
+}
+
+hr {
+  color: white;
+  width: 80%;
+  position: relative;
+  margin: 0 auto;
+}
+
+#Icons {
+  display: flex;
+  justify-content: center;
+}
+
+#Icons a {
+  padding: 10px;
+  color: whitesmoke;
+  transition: color 0.3s ease;
+}
+
+#Icons a:nth-child(1):hover i {
+  color: #2626ca;
+}
+
+#Icons a:nth-child(2):hover i {
+  color: #1da1f2;
+}
+
+#Icons a:nth-child(3):hover i {
+  color: rgb(251, 238, 1);
+}
+
+#Icons a:nth-child(4):hover i {
+  color: #df5009a2;
+}
+
+#Icons a:nth-child(5):hover i {
+  color: #2d73e3;
+}
+
+#Icons a:nth-child(6):hover i {
+  color: #808080;
+}
+
+#CopyRight {
+  display: flex;
+  justify-content: center;
+}
+
+#CopyRight p a {
+  color: whitesmoke;
+}
+
+#CopyRight p a:hover {
+  color: #950a0a;
+}
