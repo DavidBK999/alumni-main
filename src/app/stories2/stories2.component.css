@@ -1,0 +1,18 @@
+.test {
+  white-space: pre-line;
+}
+body {
+  background-image: url(https://codefactory.wien/wp-content/uploads/2020/03/White-1.jpg);
+  background-repeat: repeat;
+  background-position: 100%;
+}
+* {
+  font-family: "Agency FB", arial !important;
+}
+.title {
+  font-size: 250%;
+  color: #950a0a;
+}
+p {
+  font-size: 120%;
+}

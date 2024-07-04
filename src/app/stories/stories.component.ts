@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { IStories } from '../stories.model';
 import { stories } from '../stories';
+import { interviews } from '../stories';
 
 
 @Component({
@@ -10,8 +11,10 @@ import { stories } from '../stories';
 })
 export class StoriesComponent {
   stories: IStories[];
+  interviews: IStories[];
   constructor ()
   {
     this.stories = stories;
+    this.interviews = interviews;
   }
 }

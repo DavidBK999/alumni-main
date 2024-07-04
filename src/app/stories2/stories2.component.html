@@ -1,1 +1,29 @@
-<p>stories2 works!</p>
+<body>
+  <div class="container">
+    <body>
+      <div class="container">
+        <div class="card mb-3 bg-light">
+          <div class="image-container py-3 m-0">
+            <img
+              class="card-img-top"
+              [src]="interview.image"
+              alt="Card image cap"
+            />
+          </div>
+          <div class="card-body">
+            <h5 class="card-title title">{{ interview.title }}</h5>
+            <hr />
+            <p class="card-text test">
+              {{ interview.article }}
+            </p>
+            <p class="card-text">
+              <small class="text-muted">{{
+                interview.author + " - " + interview.date
+              }}</small>
+            </p>
+          </div>
+        </div>
+      </div>
+    </body>
+  </div>
+</body>

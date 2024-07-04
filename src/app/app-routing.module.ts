@@ -9,6 +9,7 @@ import { AlumniComponent } from './alumni/alumni.component';
 import { Alumni1Component } from './alumni1/alumni1.component';
 import { Alumni2Component } from './alumni2/alumni2.component';
 import { EventsComponent } from './events/events.component';
+import { Stories2Component } from './stories2/stories2.component';
 
 const routes: Routes = [
   { path: 'career', component: CareerComponent },
@@ -29,6 +30,7 @@ const routes: Routes = [
     path: 'alumni2',
     component: Alumni2Component,
   },
+  { path: 'stories/:id2', component: Stories2Component},
   { path: 'career2', component: Career2Component },
   { path: 'events', component: EventsComponent },
   { path: 'stories', component: StoriesComponent},
